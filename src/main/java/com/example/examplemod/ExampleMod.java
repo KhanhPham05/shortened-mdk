@@ -9,6 +9,6 @@ import org.slf4j.Logger;
 public class ExampleMod {
     public static final String MODID = "examplemod";
     private static final Logger LOGGER = LogUtils.getLogger();
-    public ExampleMod(IEventBus modEventBus) {
+    public ExampleMod(IEventBus modEventBus, ModContainer modContainer) {
     }
 }
